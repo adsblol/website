@@ -154,6 +154,7 @@ function updateTable() {
         document.getElementById("adsblol_api_me_mlat_table").classList.remove("d-none");
         // Let's remove d-none from adsblol_api_me_feeding_info too
         document.getElementById("adsblol_api_me_feeding_info").classList.remove("d-none");
+        document.getElementById("adsblol_api_me_footer").innerHTML = ", You"
     }
     // Same for beast.
     if (window.adsblol_api_me.clients.beast.length > 0) {
@@ -169,8 +170,7 @@ window.adsblol_api_me_update = function () {
         .then(data => {
             window.adsblol_api_me = data
             updateTable();
-            // Find element id=adsblol_api_me_footer and set content to ", You <3"
-            document.getElementById("adsblol_api_me_footer").innerHTML = ", You"
+
         });
 }
 

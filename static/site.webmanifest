@@ -1,0 +1,10 @@
+{
+    "name": "ADSB.lol - Open Flight Tracking",
+    "short_name": "ADSB.lol",
+    "icons": [
+
+    ],
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "display": "standalone"
+}

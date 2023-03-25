@@ -3,6 +3,11 @@
   name = "Live Map (Globe)"
   url = "https://globe.adsb.lol"
   weight = 10
+ 
+[[main]]
+  name = "My Map (Feeders Only)"
+  url = "https://my.adsb.lol"
+  weight = 12
 
 
 [[feed]]

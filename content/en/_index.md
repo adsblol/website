@@ -1,7 +1,7 @@
 ---
 title : "ADSB.lol"
-description: "ADSB.lol is an open-source, open-data community-powered flight tracking website, serving unfiltered real-time and historical air traffic data from around the world. Join our community of volunteers who contribute data and explore the skies with us!"
-lead: "ADSB.lol is an open-source, community-powered flight tracking website, serving unfiltered real-time and historical air traffic data from around the world. Join our community of volunteers who contribute data and explore the skies with us!"
+description: "ADSB.lol is an unfiltered flight tracker with a focus on open data."
+lead: "ADSB.lol is an unfiltered flight tracker with a focus on open data. Data is provided by people like you, and is available freely via the API and the historical daily archive."
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false

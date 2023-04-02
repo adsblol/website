@@ -1,6 +1,6 @@
 ---
 title: "Feed"
-description: "ADSB.lol feeding information"
+description: "ADSB.lol feed"
 lead: ""
 draft: false
 images: []

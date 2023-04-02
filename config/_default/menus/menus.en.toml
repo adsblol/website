@@ -10,10 +10,24 @@
   weight = 12
 
 
-[[feed]]
-  name = "Feeding"
+[[main]]
+  name = "Feed"
   weight = 20
-  url = "/feed"
+  identifier = "feed"
+
+[[main]]
+  name = "Docker (new install)"
+  weight = 20
+  parent = "feed"
+  url = "feed/docker"
+
+[[main]]
+  name = "Bare Metal (existing station)"
+  weight = 10
+  parent = "feed"
+  url = "feed/bare-metal"
+
+
 
 [[main]]
   name = "Tools"

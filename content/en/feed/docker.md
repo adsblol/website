@@ -6,7 +6,7 @@ images: []
 type: docs
 ---
 
-By default, it feeds MLAT+ADSB to adsb.lol. You can enable UAT/ACARS/VDL2, and feed to your plane data to FlightRadar24, Radarbox, Piaware, [and more](.env.example)
+By default, it feeds MLAT+ADSB to adsb.lol. You can enable UAT/ACARS/VDL2, and feed to your plane data to FlightRadar24, Radarbox, Piaware, [and more](https://github.com/adsblol/feed/blob/main/.env.example)
 
 It is designed to be run on a Raspberry Pi, but can be run on any Linux Debian-like system.
 

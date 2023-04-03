@@ -1,5 +1,5 @@
 ---
-title: "Feed to adsb.lol and other aggregators"
+title: "Feed to adsb.lol and other aggregators (new docker install)"
 lead: "The adsb.lol docker feed client is a toolkit that allows you to install, run and maintain a ADS-B / UAT / MLAT / ACARS / VDL2 feed client."
 draft: false
 images: []

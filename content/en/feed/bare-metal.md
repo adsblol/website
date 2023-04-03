@@ -1,5 +1,5 @@
 ---
-title: "Feed to adsb.lol"
+title: "Feed to adsb.lol (existing ADS-B station)"
 lead: "Using your existing ADS-B receiver"
 draft: false
 images: []

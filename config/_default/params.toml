@@ -2,9 +2,9 @@
 
 ## Homepage
 title = "ADSB.lol"
-titleSeparator = "-"
-titleAddition = "Open Source & Open Data"
-description = "ASDB.lol is a community of ADS-B enthusiasts. We are open source and open data."
+titleSeparator = "✈"
+titleAddition = "unfiltered flight tracking, open data"
+description = "ASDB.lol is a community unfiltered live flight tracker and an open data source."
 ## Documentation
 # docsVersion = "0.3"
 

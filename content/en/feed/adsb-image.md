@@ -6,7 +6,7 @@ images: []
 type: docs
 ---
 
-This image is made and maintained by [Dirk Hohndel](https://github.com/dirkhh) with contributions from [myself](https://github.com/katlol).
+This image is made and maintained by [dirkhh](https://github.com/dirkhh/adsb-feeder-image) with contributions from [myself](https://github.com/katlol).
 
 ## Prerequisites
 

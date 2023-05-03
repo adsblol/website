@@ -6,29 +6,25 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <!---<a class="btn btn-primary btn-lg px-4 mb-2"
-        href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
-        role="button">{{ i18n "get-started" }}</a>-->
-      <!--<p class="meta">Open Source. Open Data.</a></p>-->
-      <p class="meta">Tracking
+
+      <p class="meta">Identifying
         <span id="adsblol_api_me_planes">...</span>
-        planes
-        by <span id="adsblol_api_me_beast">...</span> BEAST and
+        flying objects, via
+        <span id="adsblol_api_me_beast">...</span> BEAST and
         <span id="adsblol_api_me_mlat">...</span> MLAT connections.
     </div>
   </div>
 </section>
-<section class="section section-sm d-none" id="adsblol_api_me_feeding_info">
+<section class="section section-sm " id="adsblol_api_me_feeding_info">
   <div class="container">
     <div class="row justify-content-center text-center">
-      <div class="col-lg-11" style="margin: 0;">
-        <pre style="margin: 0;">curl https://api.adsb.lol/api/0/me</pre>
-        <table class="d-none aloltooltip" id="adsblol_api_me_beast_table" style="margin: 0;">
+      <div class="col-lg-10" style="margin: 0;">
+        <table class=" aloltooltip" id="adsblol_api_me_beast_table" style="margin: 0;">
           <tr>
             <th>IP</th>
             <th>Kbps</th>
             <th>Time</th>
-            <th>Total Positions</th>
+            <th>Positions</th>
             <th>Messages/s</th>
             <th>Positions/s</th>
           </tr>
@@ -38,7 +34,7 @@
     <div class="row justify-content-center text-center">
 
       <div class="col-lg-9" style="margin: 0;">
-        <table class="d-none aloltooltip" id="adsblol_api_me_mlat_table" style="margin: 0;">
+        <table class=" aloltooltip" id="adsblol_api_me_mlat_table" style="margin: 0;">
           <tr>
             <th>MLAT Name</th>
             <th>Peers</th>

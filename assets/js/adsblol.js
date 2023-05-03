@@ -95,8 +95,6 @@ function updateTable() {
             var total_positions = row.insertCell(3);
             var messages_per_second = row.insertCell(4);
             var positions_per_second = row.insertCell(5);
-            id.innerHTML = client.hex;
-            id.classList.add("aloltooltiptext");
             ip.classList.add("aloltooltiptext");
             ip.innerHTML = window.adsblol_api_me.client_ip;
             kbps.innerHTML = client.kbps;

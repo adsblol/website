@@ -1,12 +1,10 @@
 ---
-title: "Feed to adsb.lol (existing ADS-B station)"
+title: "Bare Metal (existing ADS-B station)"
 lead: "Using your existing ADS-B receiver"
 draft: false
 images: []
 type: docs
 ---
-# adsb.lol feed client bare metal
-
 - These scripts aid in setting up your current ADS-B receiver to feed [adsb.lol](https://adsb.lol)
 - They will not disrupt any existing feed clients already present
 
@@ -17,29 +15,14 @@ type: docs
 ## 2: Install the adsblol feed client
 
 ```
-curl -L -o /tmp/LOLfeed.sh https://raw.githubusercontent.com/adsblol/feed/master/install.sh
-sudo bash /tmp/LOLfeed.sh
+curl -L -o /tmp/lol-feed.sh https://adsb.lol/feed.sh
+sudo bash /tmp/lol-feed.sh
 ```
 
 ## 3: Check if your feed is working
 
 That one's easy! Just go to <https://adsb.lol> and you should show as feeding.
 
-Want to make sure? You can get into looking at your connections..
-
-The feed IP for adsb.lol is currently 142.132.241.63
-
-```
-$ host feed.adsb.lol
-feed.adsb.lol has address 142.132.241.63
-```
-
-Expected Output:
-```
-$ netstat -t -n | grep -E '30004|31090'
-tcp        0    182 localhost:43530     142.132.241.63:31090      ESTABLISHED
-tcp        0    410 localhost:47332     142.132.241.63:30004      ESTABLISHED
-```
 
 ### Optional: local interface for your data http://192.168.X.XX/adsblol
 
@@ -52,15 +35,20 @@ Remove:
 sudo bash /usr/local/share/tar1090/uninstall.sh adsblol
 ```
 
-### Update the feed client without reconfiguring
+## Misc maintenance
+### Update
+
+Update the feed client without reconfiguring
 
 ```
-curl -L -o /tmp/LOLupdate.sh https://raw.githubusercontent.com/adsblol/feed/master/update.sh
-sudo bash /tmp/LOLupdate.sh
+curl -L -o /tmp/lol-update.sh https://raw.githubusercontent.com/adsblol/feed/master/update.sh
+sudo bash /tmp/lol-update.sh
 ```
 
 
-### If you encounter issues, please do a reboot and then supply these logs on the forum (last 20 lines for each is sufficient):
+### Troubleshooting issues
+
+If you encounter issues, please do a reboot and then supply these logs on Matrix/Discord (last 20 lines for each is sufficient):
 
 ```
 sudo journalctl -u adsblol-feed --no-pager
@@ -81,11 +69,13 @@ If the client is up to date it should not take as long as the original installat
 otherwise this will also update the client which will take a moment.
 
 ```
-curl -L -o /tmp/LOLfeed.sh https://raw.githubusercontent.com/adsblol/feed/master/install.sh
-sudo bash /tmp/LOLfeed.sh
+curl -L -o /tmp/lol-feed.sh https://adsb.lol/feed.sh
+sudo bash /tmp/lol-feed.sh
 ```
 
-### Disable / Enable adsb.lol MLAT-results in your main decoder interface (readsb / dump1090-fa)
+### MLAT results
+
+Disable or Enable adsb.lol MLAT-results in your main decoder interface (readsb / dump1090-fa)
 
 - Disable:
 
@@ -116,13 +106,15 @@ sudo systemctl status adsblol-feed
 ```
 
 
-### Removal / disabling the services:
+### Uninstall
 
 ```
 sudo bash /usr/local/share/adsblol/uninstall.sh
 ```
 
-If the above doesn't work, you may be using an old version that didn't have the uninstall script, just disable the services and the scripts won't run anymore:
+If the above doesn't work, you may be using an old version that didn't have the uninstall script,
+
+just disable the services and the scripts won't run anymore:
 
 ```
 sudo systemctl disable --now adsblol-feed

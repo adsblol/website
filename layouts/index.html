@@ -25,7 +25,6 @@
         <pre style="margin: 0;">curl https://api.adsb.lol/api/0/me</pre>
         <table class="d-none aloltooltip" id="adsblol_api_me_beast_table" style="margin: 0;">
           <tr>
-            <th>Beast ID</th>
             <th>IP</th>
             <th>Kbps</th>
             <th>Time</th>
@@ -56,30 +55,24 @@
     <div class="row justify-content-center text-center">
 
       <div class="col-lg-5">
-        <h2 class="h4">Feed information</h2>
+        <h2 class="h4">Transparency.</h2>
         <ul class="unstyled list-unstyled">
-          <li>Host: <code>feed.adsb.lol</code> or <code>in.adsb.lol</code></li>
-          <li><b>BEAST</b> ports <code>1337, 30004</code></li>
-          <li><b>MLAT</b> ports <code>1338, 31090</code></li>
+          We believe in the power of open data to build a community and reduce profit motives.<br/>
         </ul>
       </div>
 
       <div class="col-lg-5">
-        <h2 class="h4">Starting from scratch?</h2>
-        <p>Take a look at the <a href="https://github.com/adsblol/feed#quick-start-docker" target="_blank">Docker based
-            feed client</a>
-          Allows you to feed ADSB / UAT / MLAT / ACARS / VDL2 to all well known flight aggregators, commercial and open
-          source.
+        <h2 class="h4">Technology.</h2>
+        <a href="https://adsb.lol/stats">4 CPU cores, 10 GB of RAM, 20Mbps.</a><br/>
+        with high availability overhead (3-4x).<br/>
+        Thank you, <a href="https://github.com/wiedehopf/readsb">wiedehopf/readsb</a>!
         </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Feed adsb.lol from your existing feed</h2>
-        <p></p>
-        <pre>curl -fsL -o /tmp/adsblol.sh https://adsb.lol/feed.sh && sudo bash /tmp/adsblol.sh</pre>
-        Works with all known images from other flight aggregators as well as DIY Debian based setups.
-        It will not affect your existing feeds. <a href="https://github.com/adsblol/feed/blob/main/README.md"
-          target="_blank">More info</a>
-        </p>
+        <h2 class="h4">Teamwork.</h2>
+        <p>
+          We mutually share data with aggregators willing to do the same.</br>
+          <br/>
       </div>
     </div>
   </div>

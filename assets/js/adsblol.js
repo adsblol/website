@@ -59,33 +59,33 @@ function updateTable() {
         var client = window.adsblol_api_me.clients.beast[i];
         var row = document.getElementById("adsblol_api_me_beast_table").rows[i + 1];
         if (row) {
-            if (row.cells[0].innerHTML != client.hex) {
+            // if (row.cells[0].innerHTML != client.hex) {
+            //     row.cells[0].classList.add("adsblol_blink");
+            //     row.cells[0].innerHTML = client.hex;
+            // }
+            if (row.cells[0].innerHTML != window.adsblol_api_me.client_ip) {
                 row.cells[0].classList.add("adsblol_blink");
-                row.cells[0].innerHTML = client.hex;
+                row.cells[0].innerHTML = window.adsblol_api_me.client_ip;
             }
-            if (row.cells[1].innerHTML != window.adsblol_api_me.client_ip) {
+            if (row.cells[1].innerHTML != client.kbps) {
                 row.cells[1].classList.add("adsblol_blink");
-                row.cells[1].innerHTML = window.adsblol_api_me.client_ip;
+                row.cells[1].innerHTML = client.kbps;
             }
-            if (row.cells[2].innerHTML != client.kbps) {
+            if (row.cells[2].innerHTML != client.connected_seconds) {
                 row.cells[2].classList.add("adsblol_blink");
-                row.cells[2].innerHTML = client.kbps;
+                row.cells[2].innerHTML = client.connected_seconds;
             }
-            if (row.cells[3].innerHTML != client.connected_seconds) {
+            if (row.cells[3].innerHTML != client.positions) {
                 row.cells[3].classList.add("adsblol_blink");
-                row.cells[3].innerHTML = client.connected_seconds;
+                row.cells[3].innerHTML = client.positions;
             }
-            if (row.cells[4].innerHTML != client.positions) {
+            if (row.cells[4].innerHTML != client.messages_per_second) {
                 row.cells[4].classList.add("adsblol_blink");
-                row.cells[4].innerHTML = client.positions;
+                row.cells[4].innerHTML = client.messages_per_second;
             }
-            if (row.cells[5].innerHTML != client.messages_per_second) {
+            if (row.cells[5].innerHTML != client.positions_per_second) {
                 row.cells[5].classList.add("adsblol_blink");
-                row.cells[5].innerHTML = client.messages_per_second;
-            }
-            if (row.cells[6].innerHTML != client.positions_per_second) {
-                row.cells[6].classList.add("adsblol_blink");
-                row.cells[6].innerHTML = client.positions_per_second;
+                row.cells[5].innerHTML = client.positions_per_second;
             }
         } else {
             row = document.getElementById("adsblol_api_me_beast_table").insertRow(i + 1);

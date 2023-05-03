@@ -3,12 +3,6 @@
   name = "Live Map (Globe)"
   url = "https://globe.adsb.lol"
   weight = 10
- 
-[[main]]
-  name = "My Map (Feeders Only)"
-  url = "https://my.adsb.lol"
-  weight = 12
-
 
 [[main]]
   name = "Feed"
@@ -16,22 +10,31 @@
   identifier = "feed"
 
 [[main]]
-  name = "Docker (new install)"
+  name = "Bare Metal (existing ADS-B station)"
+  weight = 10
+  parent = "feed"
+  url = "feed/bare-metal"
+
+[[main]]
+  name = "ADSB.im Image (recommended for new stations / easy)"
+  weight = 15
+  parent = "feed"
+  url = "feed/adsb-image"
+
+[[main]]
+  name = "Docker (recommended for new stations / advanced)"
   weight = 20
   parent = "feed"
   url = "feed/docker"
 
 [[main]]
-  name = "Bare Metal (existing station)"
-  weight = 10
-  parent = "feed"
-  url = "feed/bare-metal"
-
-
+  name = "Open Data"
+  weight = 40
+  identifier = "open-data"
 
 [[main]]
   name = "Tools"
-  weight = 30
+  weight = 50
   identifier = "tools"
 
 
@@ -48,10 +51,6 @@
   weight = 20
   parent = "tools"
 
-[[main]]
-  name = "Open Data"
-  weight = 20
-  identifier = "open-data"
 
 [[main]]
   name = "API"
@@ -71,7 +70,34 @@
   weight = 30
   parent = "tools"
 
+[[main]]
+  name = "Feeders Only"
+  weight = 30
+  identifier = "feeders-only"
 
+[[main]]
+  name = "My Map"
+  url = "https://my.adsb.lol"
+  weight = 10
+  parent = "feeders-only"
+
+[[main]]
+  name = "re-api (experimental)"
+  url = "https://re-api.adsb.lol/?circle=50,10,250"
+  weight = 20
+  parent = "feeders-only"
+
+[[main]]
+  name = "re-api documentation"
+  url = "https://github.com/wiedehopf/readsb/blob/dev/README-json.md#--net-api-port-query-formats"
+  weight = 21
+  parent = "feeders-only"
+
+[[main]]
+  name = "Partners"
+  weight = 60
+  identifier = "partners"
+  url = "partners"
 [[social]]
   name = "GitHub"
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"

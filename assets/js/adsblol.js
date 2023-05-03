@@ -89,13 +89,12 @@ function updateTable() {
             }
         } else {
             row = document.getElementById("adsblol_api_me_beast_table").insertRow(i + 1);
-            var id = row.insertCell(0);
-            var ip = row.insertCell(1);
-            var kbps = row.insertCell(2);
-            var time = row.insertCell(3);
-            var total_positions = row.insertCell(4);
-            var messages_per_second = row.insertCell(5);
-            var positions_per_second = row.insertCell(6);
+            var ip = row.insertCell(0);
+            var kbps = row.insertCell(1);
+            var time = row.insertCell(2);
+            var total_positions = row.insertCell(3);
+            var messages_per_second = row.insertCell(4);
+            var positions_per_second = row.insertCell(5);
             id.innerHTML = client.hex;
             id.classList.add("aloltooltiptext");
             ip.classList.add("aloltooltiptext");

@@ -45,7 +45,7 @@ adsblol-env set FEEDER_TZ America/New_York
 adsblol-env set ADSB_DONGLE_SERIAL 1090
 # Site name (shows up on the MLAT map!)
 adsblol-env set MLAT_SITE_NAME "My epic site"
-# Would you like to appear on map.adsb.lol? Then set this:
+# Would you like to appear on mlat.adsb.lol? Then set this:
 adsblol-env unset ADSBLOL_MLAT_CONFIG
 ```
 
@@ -60,7 +60,7 @@ Let's check if everything is working:
 - [ ] <http://IP:8080> (readsb)
 - [ ] <http://IP:8082> (adsblol)
 - [ ] <https://adsb.lol> (ADSB)
-- [ ] <https://map.adsb.lol> (MLAT)
+- [ ] <https://mlat.adsb.lol> (MLAT)
 
 ## Usage
 

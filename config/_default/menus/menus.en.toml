@@ -47,7 +47,7 @@
 
 [[main]]
   name = "MLAT Feeder Map"
-  url = "https://map.adsb.lol/"
+  url = "https://mlat.adsb.lol/"
   weight = 20
   parent = "tools"
 

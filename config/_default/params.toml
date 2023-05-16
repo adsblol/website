@@ -11,7 +11,7 @@ description = "ASDB.lol is a community unfiltered live flight tracker and an ope
 ## Open Graph
 images = ["logo.png"]
 ogLocale = "en_US"
-domainTLD = "adsb.lol"
+domainTLD = "www.adsb.lol"
 titleHome = "ADSB.lol"
 
 ## JSON-LD

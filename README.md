@@ -1,6 +1,6 @@
 # adsblol/website
 
-<https://adsb.lol>
+<https://www.adsb.lol>
 
 Powered by [doks](https://github.com/h-enk/doks)
 

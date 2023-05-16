@@ -1,4 +1,4 @@
-baseurl = "https://adsb.lol"
+baseurl = "https://www.adsb.lol"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true

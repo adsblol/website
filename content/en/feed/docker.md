@@ -151,11 +151,11 @@ The `adsblol` service can feed to other aggregators.
 In this example, we feed [theairtraffic.com](https://theairtraffic.com) and [adsbexchange.com](https://adsbexchange.com)
 two aggregators you might want to consider sharing your data with.
 
-ADSBexchange has the largest network of MLAT receivers at the time of writing, so you have the highest chance of getting local flights that you might miss as they do not transfer their location data.
+**WARNING:** ADSBexchange has recently been acquired by a private equity company with unknown plans for the data submitted. It does however have the largest MLAT network, giving you the best chance to locally identify overhead aircraft that do not explicitly share their location data.
 
 [TheAirTraffic.com](https://theairtraffic.com) is run by [Jack Sweeney](https://grndcntrl.net/?ref=adsblol)
 
-This is not an endorsement and adsb.lol is not affiliated with these aggregators.
+This is not an endorsement and adsb.lol/myself are not affiliated with these aggregators.
 
 ### Run
 

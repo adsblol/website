@@ -19,8 +19,16 @@ Reach out to
 
 
 
-#### FlyItalyADSB
+### FlyItalyADSB
 
 In the network since February 2023.
 
 [FlyItalyADSB](https://flyitalyadsb.com) is the first Italian community of flight tracking enthusiasts who thanks to a small antenna receive the position of the planes around them (up to 400km away).
+
+## Sponsors
+
+### Zulip
+
+[Zulip](https://zulipchat.com) is a powerful, open source group chat application.
+
+It is used for community chat, as a replacement for Discord/Matrix/Forum.

@@ -29,6 +29,4 @@ In the network since February 2023.
 
 ### Zulip
 
-[Zulip](https://zulipchat.com) is a powerful, open source group chat application.
-
-It is used for community chat, as a replacement for Discord/Matrix/Forum.
+[Zulip](https://zulipchat.com) is an open-source modern team chat app designed to keep both live and asynchronous conversations organized.

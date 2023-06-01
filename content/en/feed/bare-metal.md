@@ -48,7 +48,7 @@ sudo bash /tmp/lol-update.sh
 
 ### Troubleshooting issues
 
-If you encounter issues, please do a reboot and then supply these logs on Matrix/Discord (last 20 lines for each is sufficient):
+If you encounter issues, please do a reboot and then supply these logs on [zulip](https://adsblol.zulipchat.com) (last 20 lines for each is sufficient):
 
 ```
 sudo journalctl -u adsblol-feed --no-pager

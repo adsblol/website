@@ -70,7 +70,7 @@ To see the current list of supported aggregators, see the [services.txt](service
 
 The `adsblol` service supports feeding to multiple aggregators.
 
-If you have an issue with the feed client, please [paste.ee](https://paste.ee) your error logs join our chat on [matrix](https://matrix.to/#/#adsblol:gatto.club) or [discord](https://adsb.lol/discord).
+If you have an issue with the feed client, please [paste.ee](https://paste.ee) your error logs join our chat on [zulip](https://adsblol.zulipchat.com)
 
 
 ### Restart the stack

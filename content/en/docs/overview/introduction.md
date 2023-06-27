@@ -20,4 +20,4 @@ toc: true
 
 ### [Feeders Only](../../feeders-only/introduction)
 
-### [Open Data](../open-data/introduction)
+### [Open Data](../open-data/)

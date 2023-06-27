@@ -74,23 +74,6 @@ curl -L -o /tmp/lol-feed.sh https://adsb.lol/feed.sh
 sudo bash /tmp/lol-feed.sh
 ```
 
-### MLAT results
-
-Disable or Enable adsb.lol MLAT-results in your main decoder interface (readsb / dump1090-fa)
-
-- Disable:
-
-```
-sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS=""/' /etc/default/adsblol
-sudo systemctl restart adsblol-mlat
-```
-- Enable:
-
-```
-sudo sed --follow-symlinks -i -e 's/RESULTS=.*/RESULTS="--results beast,connect,127.0.0.1:30104"/' /etc/default/adsblol
-sudo systemctl restart adsblol-mlat
-```
-
 ### Restart
 
 ```

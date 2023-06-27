@@ -4,7 +4,7 @@ description: ""
 lead: ""
 date: 2023-06-28T01:29:22+02:00
 lastmod: 2023-06-28T01:29:22+02:00
-draft: true
+draft: false
 images: []
 menu:
   docs:
@@ -31,3 +31,8 @@ toc: true
 [mlat-server](https://github.com/katlol/mlat-server/blob/master/COPYING) is a Mode S multilateration server that is designed to operate with clients that do not have synchronized clocks.
 
 [LICENSE](https://github.com/katlol/mlat-server/blob/master/COPYING)
+
+## MLAT Map and Sync Table
+
+[MLAT Table License](https://github.com/adsblol/mlat-server-sync-map/commit/e534d04c7a2718f194fe3f64bd8993f0b8e4ff23)
+[MLAT Map License](https://github.com/adsblol/mlat-server-sync-map/commit/e534d04c7a2718f194fe3f64bd8993f0b8e4ff23)

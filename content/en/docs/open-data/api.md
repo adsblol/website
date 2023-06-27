@@ -15,4 +15,6 @@ toc: true
 
 The API is available to everyone.
 
+## Usage
+
 <https://api.adsb.lol>

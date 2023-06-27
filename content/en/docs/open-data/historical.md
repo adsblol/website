@@ -23,8 +23,6 @@ Historical data is dumped daily by:
 
 The data is made available by GitHub releases, a release is available daily for each of the above instances.
 
+## Usage
+
 The data contains a file per aircraft, a JSON GZIP file containing the data for that aircraft for the day.
-
-The API is available to everyone.
-
-<https://api.adsb.lol>

@@ -58,7 +58,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by readsb, tar1090, OpenStreetMap, Kubernetes, Doks"
+footer = ""
 
 # Feed
 copyRight = "Copyright (c) 2023 katlol"

@@ -1,9 +1,10 @@
 ---
-title: "Docker (recommended for new stations / advanced)"
+title: "Docker Toolkit"
 lead: "The adsb.lol docker feed client is a toolkit that allows you to install, run and maintain a ADS-B / UAT / MLAT / ACARS / VDL2 feed client to a multitude of aggregators."
 draft: false
 images: []
 type: docs
+weight: 102
 ---
 
 By default, it feeds MLAT+ADSB to adsb.lol. You can enable UAT/ACARS/VDL2, and feed to your plane data to FlightRadar24, Radarbox, Piaware, [and more](https://github.com/adsblol/feed/blob/main/.env.example)

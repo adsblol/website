@@ -1,9 +1,10 @@
 ---
-title: "Bare Metal (existing ADS-B station)"
+title: "Bare Metal"
 lead: "Using your existing ADS-B receiver"
 draft: false
 images: []
 type: docs
+weight: 103
 ---
 - These scripts aid in setting up your current ADS-B receiver to feed [adsb.lol](https://adsb.lol)
 - They will not disrupt any existing feed clients already present

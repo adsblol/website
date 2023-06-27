@@ -1,103 +1,18 @@
 
 [[main]]
   name = "Live Map (Globe)"
-  url = "https://globe.adsb.lol"
+  url = "https://adsb.lol"
   weight = 10
 
 [[main]]
-  name = "Feed"
+  name = "Blog"
+  url = "/blog/"
   weight = 20
-  identifier = "feed"
 
 [[main]]
-  name = "Bare Metal (existing ADS-B station)"
-  weight = 10
-  parent = "feed"
-  url = "feed/bare-metal"
-
-[[main]]
-  name = "ADSB.im Image (recommended for new stations / easy)"
-  weight = 15
-  parent = "feed"
-  url = "feed/adsb-image"
-
-[[main]]
-  name = "Docker (recommended for new stations / advanced)"
-  weight = 20
-  parent = "feed"
-  url = "feed/docker"
-
-[[main]]
-  name = "Open Data"
-  weight = 40
-  identifier = "open-data"
-
-[[main]]
-  name = "Tools"
-  weight = 50
-  identifier = "tools"
-
-
-[[main]]
-  name = "Grafana"
-  url = "https://adsb.lol/stats"
-  weight = 40
-  parent = "tools"
-  target = "_blank"
-
-[[main]]
-  name = "MLAT Feeder Map"
-  url = "https://mlat.adsb.lol/"
-  weight = 20
-  parent = "tools"
-
-
-[[main]]
-  name = "API"
-  url = "https://api.adsb.lol/"
-  weight = 15
-  parent = "open-data"
-
-[[main]]
-  name = "globe_history"
-  url = "https://github.com/adsblol/globe_history"
-  weight = 20
-  parent = "open-data"
-
-[[main]]
-  name = "Uptime Status"
-  url = "https://status.adsb.lol/"
+  name = "Docs"
   weight = 30
-  parent = "tools"
-
-[[main]]
-  name = "Feeders Only"
-  weight = 30
-  identifier = "feeders-only"
-
-[[main]]
-  name = "My Map"
-  url = "https://my.adsb.lol"
-  weight = 10
-  parent = "feeders-only"
-
-[[main]]
-  name = "re-api (experimental)"
-  url = "https://re-api.adsb.lol/?circle=50,10,250"
-  weight = 20
-  parent = "feeders-only"
-
-[[main]]
-  name = "re-api documentation"
-  url = "https://github.com/wiedehopf/readsb/blob/dev/README-json.md#--net-api-port-query-formats"
-  weight = 21
-  parent = "feeders-only"
-
-[[main]]
-  name = "Partners"
-  weight = 60
-  identifier = "partners"
-  url = "partners"
+  url = "/docs/overview/introduction/"
 
 [[social]]
   name = "Zulip (chat/forum)"

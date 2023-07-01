@@ -11,8 +11,12 @@ menu:
     parent: ""
     identifier: "sponsors-b22176476e323f463ff022c1cb1d6dd6"
 weight: 999
-toc: true
+toc: false
 ---
+
+### CloudFlare
+
+As an open source project, we qualify for CloudFlare's [free pro plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/)
 
 ### Zulip
 

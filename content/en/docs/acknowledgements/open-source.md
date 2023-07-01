@@ -47,7 +47,27 @@ The [VRS standing data](https://github.com/vradarserver/standing-data/) is [form
 
 Acknowledgements go to the [Virtual Radar Server contributors](https://www.virtualradarserver.co.uk/Credits.aspx)
 
+## adsb.lol API
+
+[We](https://github.com/adsblol/api/graphs/contributors?from=2023-01-29&to=2037-07-01&type=d) contribute some code.
+
+The API is possible thanks to [Redis](https://redis.io/) acting as the database for the fun _Route_, _My Map_ and _Screenshot_ features.
+
+
 ## doks
 
 This website was built using [Hugo](https://gohugo.io/) and [doks](https://github.com/h-enk/doks)
+
+
+## finally
+
+- [ingress-nginx](https://github.com/kubernetes/ingress-nginx)
+- [cert-manager](https://github.com/cert-manager/cert-manager)
+- [fluxcd](https://github.com/fluxcd/flux2)
+- [haproxy](https://github.com/haproxy/haproxy)
+- [kubernetes](github.com/kubernetes/kubernetes)
+- [grafana](https://github.com/grafana/grafana)
+- [mimir](https://github.com/grafana/mimir)
+- [loki](https://github.com/grafana/loki)
+
 

@@ -65,7 +65,7 @@ This website was built using [Hugo](https://gohugo.io/) and [doks](https://githu
 - [cert-manager](https://github.com/cert-manager/cert-manager)
 - [fluxcd](https://github.com/fluxcd/flux2)
 - [haproxy](https://github.com/haproxy/haproxy)
-- [kubernetes](github.com/kubernetes/kubernetes)
+- [kubernetes](https://github.com/kubernetes/kubernetes)
 - [grafana](https://github.com/grafana/grafana)
 - [mimir](https://github.com/grafana/mimir)
 - [loki](https://github.com/grafana/loki)

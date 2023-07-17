@@ -16,10 +16,10 @@ toc: true
 
 ## SDR
 
-- AirNav RadarBox FlightStick (filter, no LNA) [US](https://www.amazon.com/dp/B07K47P7XD/) [DE](https://www.amazon.de/dp/B07K47P7XD) [NL](https://www.amazon.nl/dp/B07K47P7XD) [IT](https://www.amazon.it/dp/B07K47P7XD) [UK](https://www.amazon.co.uk/dp/B07K47P7XD) [FR](https://www.amazon.fr/dp/B07K47P7XD) [ES](https://www.amazon.es/dp/B07K47P7XD)
-- [RTL-SDR](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) (no filter, no LNA)
-- [AliExpress no-name 1090 filtered](https://aliexpress.com/item/1005005466363998.html) (cheapest)
-- Best: [Airspy Mini](https://airspy.com/airspy-mini/)
+- AirNav RadarBox FlightStick (filter, no LNA) [US](https://www.amazon.com/dp/B07K47P7XD/) [DE](https://www.amazon.de/dp/B07K47P7XD) [NL](https://www.amazon.nl/dp/B07K47P7XD) [IT](https://www.amazon.it/dp/B07K47P7XD) [UK](https://www.amazon.co.uk/dp/B07K47P7XD) [FR](https://www.amazon.fr/dp/B07K47P7XD) [ES](https://www.amazon.es/dp/B07K47P7XD) (good starter, cheap)
+- [RTL-SDR](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) (no filter, supports Bias-T to power other devices, most common! great value.)
+- [AliExpress no-name 1090 filtered](https://aliexpress.com/item/1005005466363998.html) (cheapest, least recommended)
+- Best: [Airspy Mini](https://airspy.com/airspy-mini/) (no filter, supports Bias-T)
 
 ## Filter
 

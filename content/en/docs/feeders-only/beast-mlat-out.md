@@ -24,6 +24,8 @@ These outputs are available to all feeders IPs.
 
 ### DISCLAIMER
 
+Do not use your feeder for this. **You need to spin up a new readsb.**
+
 This feature is experimental. In particular, **No support or guarantee of any kind is provided.**
 
 Documentation assumes a high skill level. **Please consider improving the documentation for the next person.**
@@ -35,8 +37,3 @@ You can use readsb to get the data locally, for example running directly:
 readsb --net-only --net-connector=out.adsb.lol,1337,beast_in --net-connector=out.adsb.lol,1338,sbs_in_mlat
 ```
 
-Or this environment variable on [adsblol/feed](https://github.com/adsblol/feed) `/opt/adsblol/.env`:
-
-```
-ADSBLOL_ADDITIONAL_NET_CONNECTOR=out.adsb.lol,1337,beast_in;out.adsb.lol,1338,sbs_in_mlat
-```

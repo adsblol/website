@@ -17,10 +17,16 @@ License: [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1.0/)
 
 
 Hostname: `out.adsb.lol`
+
 Port: 1337 (BEAST) and 1338 (MLAT, SBS)
 
 These outputs are available to all feeders IPs.
 
+### DISCLAIMER
+
+This feature is experimental. In particular, **No support or guarantee of any kind is provided.**
+
+Documentation assumes a high skill level. **Please consider improving the documentation for the next person.**
 
 ### Usage
 

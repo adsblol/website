@@ -20,19 +20,19 @@ Adding a receiver to our network is easy. You can use any of the following metho
 
 ### [ADSB.im Image](../adsb-image)
 
-Recommended for new stations / easy.
+Easy: recommended for new stations running on dedicated hardware / Single Board Computers (SBCs).
 
-Simple to use ADSB Feeder Images for common Single Board Computers.
+Simple to use ADSB Feeder Images for common Single Board Computers like most of the Raspberry Pi family and many others. Web UI driven. Very limited technical skill required.
 
 ### [ADSB.lol Docker Toolkit](../docker)
 
-Recommended for new stations / expert.
+For technically versed users: recommended for new stations that won't be running on a dedicated SBC.
 
-Install, run and maintain a ADS-B / UAT / MLAT / ACARS / VDL2 / AIS feed client to a multitude of aggregators.
+Install, run, and maintain an ADS-B / UAT / MLAT / ACARS / VDL2 / AIS feed client to a multitude of aggregators.
 
 ### [Bare Metal](../bare-metal)
 
-Recommended for existing stations.
+For technically versed users: recommended for existing stations.
 
 If you already have an ADS-B station, you can add ADSB.lol as a feeder, this will not interfere with your existing setup.
 

@@ -18,3 +18,5 @@ Your map is available at the following address: <https://my.adsb.lol>
 This link, accessed by your IP, redirects you to your own subdomain that can be shared with others publicly.
 
 Your location is always approximate, and can be off by several hundreds kilometers.
+
+Please note that because of an implementation detail (subject to change), this functionality may fail if you have multiple feeders coming from the same IP address. When combining the [human hashes](https://github.com/zacharyvoase/humanhash) for each of the feeders, the resulting domain name may exceed the length limitation of the DNS lookup.

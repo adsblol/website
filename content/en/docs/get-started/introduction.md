@@ -18,7 +18,7 @@ toc: false
 
 Adding a receiver to our network is easy. You can use any of the following methods:
 
-### [ADSB.im Image](../adsb-image)
+### [ADSB.im Image](https://adsb.im/howto)
 
 Easy: recommended for new stations running on dedicated hardware / Single Board Computers (SBCs).
 

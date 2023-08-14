@@ -37,3 +37,7 @@ You can use readsb to get the data locally, for example running directly:
 readsb --net-only --net-connector=out.adsb.lol,1337,beast_in --net-connector=out.adsb.lol,1338,sbs_in_mlat
 ```
 
+The typical use case for this would be to do some form of data analysis on the full raw data stream from all the feeders. It could also be used for certain visualization goals of live or past flight activity.
+
+Please make sure that you avoid creating feeding loops - that is why the disclaimer above urges you not to use the readsb in your feeder setup to connect to this stream. A good way to set up a separate environment to start using this data stream would be to spin up a Docker container with its own readsb instance. The necessary docker file to get started with that is included in the readsb implementation that is most commonly used at this point (and that is also the underlying implementation used for ADSB.lol): [@wiedehopf's readsb](https://github.com/wiedehopf/readsb)
+

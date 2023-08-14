@@ -17,4 +17,6 @@ You can see the feeders you are connected with, and other useful information.
 
 <https://mlat.adsb.lol>
 
+Please note that this map respects the privacy flag used by feeders. So any site that feeds with privacy enabled will not be shown on this map.
+
 It was made by [lemonodor and wiedehopf](https://github.com/wiedehopf/mlat-server-sync-map/commit/cc5e0bc33941296f730361e97b6055e7c104998a)

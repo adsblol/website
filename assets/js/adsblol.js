@@ -56,7 +56,7 @@ function updateTable() {
     mlat.innerHTML = window.adsblol_api_me.global.mlat;
 
     cells = [
-        "hex", "ms", "kbps", "connected_seconds", "positions", "messages_per_second", "positions_per_second"
+        "uuid", "ms", "kbps", "connected_seconds", "positions", "messages_per_second", "positions_per_second"
     ]
     for (var i = 0; i < window.adsblol_api_me.clients.beast.length; i++) {
         var client = window.adsblol_api_me.clients.beast[i];

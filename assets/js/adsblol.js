@@ -1,7 +1,7 @@
 // Poll data from /api/0/me
 // and update the UI
 
-var API_URL = "https://api.adsb.lol/api/0/me"
+var API_URL = "https://api.adsb.lol/0/me"
 
 // We want to make it globally accessible within the rest of the browser
 // To do this, we need to create a global variable
@@ -55,53 +55,25 @@ function updateTable() {
     mlat = document.getElementById("adsblol_api_me_mlat");
     mlat.innerHTML = window.adsblol_api_me.global.mlat;
 
+    cells = [
+        "hex", "ms", "kbps", "connected_seconds", "positions", "messages_per_second", "positions_per_second"
+    ]
     for (var i = 0; i < window.adsblol_api_me.clients.beast.length; i++) {
         var client = window.adsblol_api_me.clients.beast[i];
         var row = document.getElementById("adsblol_api_me_beast_table").rows[i + 1];
         if (row) {
-            // if (row.cells[0].innerHTML != client.hex) {
-            //     row.cells[0].classList.add("adsblol_blink");
-            //     row.cells[0].innerHTML = client.hex;
-            // }
-            if (row.cells[0].innerHTML != window.adsblol_api_me.client_ip) {
-                row.cells[0].classList.add("adsblol_blink");
-                row.cells[0].innerHTML = window.adsblol_api_me.client_ip;
-            }
-            if (row.cells[1].innerHTML != client.kbps) {
-                row.cells[1].classList.add("adsblol_blink");
-                row.cells[1].innerHTML = client.kbps;
-            }
-            if (row.cells[2].innerHTML != client.connected_seconds) {
-                row.cells[2].classList.add("adsblol_blink");
-                row.cells[2].innerHTML = client.connected_seconds;
-            }
-            if (row.cells[3].innerHTML != client.positions) {
-                row.cells[3].classList.add("adsblol_blink");
-                row.cells[3].innerHTML = client.positions;
-            }
-            if (row.cells[4].innerHTML != client.messages_per_second) {
-                row.cells[4].classList.add("adsblol_blink");
-                row.cells[4].innerHTML = client.messages_per_second;
-            }
-            if (row.cells[5].innerHTML != client.positions_per_second) {
-                row.cells[5].classList.add("adsblol_blink");
-                row.cells[5].innerHTML = client.positions_per_second;
+            for (var j = 0; j < cells.length; j++) {
+                if (row.cells[j].innerHTML != client[cells[j]]) {
+                    row.cells[j].classList.add("adsblol_blink");
+                    row.cells[j].innerHTML = client[cells[j]];
+                }
             }
         } else {
             row = document.getElementById("adsblol_api_me_beast_table").insertRow(i + 1);
-            var ip = row.insertCell(0);
-            var kbps = row.insertCell(1);
-            var time = row.insertCell(2);
-            var total_positions = row.insertCell(3);
-            var messages_per_second = row.insertCell(4);
-            var positions_per_second = row.insertCell(5);
-            ip.classList.add("aloltooltiptext");
-            ip.innerHTML = window.adsblol_api_me.client_ip;
-            kbps.innerHTML = client.kbps;
-            time.innerHTML = client.connected_seconds;
-            total_positions.innerHTML = client.positions;
-            messages_per_second.innerHTML = client.messages_per_second;
-            positions_per_second.innerHTML = client.positions_per_second;
+            for (var j = 0; j < cells.length; j++) {
+                var cell = row.insertCell(j);
+                cell.innerHTML = client[cells[j]];
+            }
         }
     }
 
@@ -118,31 +90,25 @@ function updateTable() {
     // }
     // This is not idempotent unfortunately. It always creates a new row.
     // We transform it to idempotent now,
+    cells = [
+        "user", "peer_count", "bad_sync_timeout",
+    ]
     for (var i = 0; i < window.adsblol_api_me.clients.mlat.length; i++) {
         var client = window.adsblol_api_me.clients.mlat[i];
         var row = document.getElementById("adsblol_api_me_mlat_table").rows[i + 1];
         if (row) {
-            if (row.cells[0].innerHTML != client.user) {
-                row.classList.add("adsblol_blink");
-                row.cells[0].innerHTML = client.user;
-            }
-            if (row.cells[1].innerHTML != client.peer_count) {
-                row.classList.add("adsblol_blink");
-                row.cells[1].innerHTML = client.peer_count;
-            }
-            if (row.cells[2].innerHTML != client.bad_sync_timeout) {
-                row.classList.add("adsblol_blink");
-                row.cells[2].innerHTML = client.bad_sync_timeout;
+            for (var j = 0; j < cells.length; j++) {
+                if (row.cells[j].innerHTML != client[cells[j]]) {
+                    row.cells[j].classList.add("adsblol_blink");
+                    row.cells[j].innerHTML = client[cells[j]];
+                }
             }
         } else {
             row = document.getElementById("adsblol_api_me_mlat_table").insertRow(i + 1);
-            var name = row.insertCell(0);
-            var peers = row.insertCell(1);
-            var timeout = row.insertCell(2);
-            name.innerHTML = client.user;
-            name.classList.add("aloltooltiptext");
-            peers.innerHTML = client.peer_count;
-            timeout.innerHTML = client.bad_sync_timeout;
+            for (var j = 0; j < cells.length; j++) {
+                var cell = row.insertCell(j);
+                cell.innerHTML = client[cells[j]];
+            }
         }
     }
     // If length of window.adsblol_api_me.clients.mlat > 0; show MLAT table

@@ -45,9 +45,9 @@ function updateTable() {
     // We remove the row if it doesn't exist in the API anymore.
     // We also remove the row if it's the first row, because that's the header.
 
-    // Update adsblol_api_me_planes = window.adsblol_api_me.global.planes
-    planes = document.getElementById("adsblol_api_me_planes");
-    planes.innerHTML = window.adsblol_api_me.global.planes;
+    // Update adsblol_api_me_aircraft = window.adsblol_api_me.global.aircraft
+    aircraft = document.getElementById("adsblol_api_me_aircraft");
+    aircraft.innerHTML = window.adsblol_api_me.global.aircraft;
 
     beast = document.getElementById("adsblol_api_me_beast");
     beast.innerHTML = window.adsblol_api_me.global.beast;

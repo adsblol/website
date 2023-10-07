@@ -66,6 +66,10 @@ function updateTable() {
                 if (row.cells[j].innerHTML != client[cells[j]]) {
                     row.cells[j].classList.add("adsblol_blink");
                     row.cells[j].innerHTML = client[cells[j]];
+                    // to [0] add class aloltooltiptext
+                    if (j == 0) {
+                        row.cells[j].classList.add("aloltooltiptext");
+                    }
                 }
             }
         } else {

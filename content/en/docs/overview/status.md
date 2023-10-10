@@ -12,5 +12,3 @@ toc: true
 ---
 
 ## [Uptime Status](https://status.adsb.lol)
-
-## [Grafana](https://adsb.lol/stats)

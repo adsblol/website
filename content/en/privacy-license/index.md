@@ -11,7 +11,7 @@ This service is provided by myself [@katlol](https://github.com/katlol) and it i
 No personal data is collected besides a temporary storage of log files which is kept for less than 30 days.
 ## Hosting Provider
 
-ADSB.lol is hosted by OVH, with servers in France.
+ADSB.lol is hosted by Netcup, with servers in Germany.
 
 Parts of static data are served by GitHub, proxied by CloudFlare.
 

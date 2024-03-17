@@ -27,4 +27,4 @@ See [docs](https://github.com/wiedehopf/readsb/blob/dev/README-json.md#--net-api
 
 For example,
 
-<https://re-api.adsb.lol?all>
+<https://re-api.adsb.lol?circle=52,2,200>

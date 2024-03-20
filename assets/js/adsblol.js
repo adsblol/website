@@ -119,8 +119,15 @@ function updateTable() {
             for (var j = 0; j < cells.length; j++) {
                 var cell = row.insertCell(j);
                 cell.innerHTML = client[cells[j]];
+                if (j == 0) {
+                    cell.classList.add("aloltooltiptext");
+                }
             }
         }
+    }
+    // remove any extra rows
+    while (document.getElementById("adsblol_api_me_mlat_table").rows.length > window.adsblol_api_me.clients.mlat.length + 1) {
+        document.getElementById("adsblol_api_me_mlat_table").deleteRow(window.adsblol_api_me.clients.mlat.length + 1);
     }
     // If length of window.adsblol_api_me.clients.mlat > 0; show MLAT table
     // Remove .d-none class from table

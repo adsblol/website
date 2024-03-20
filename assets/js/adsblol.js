@@ -77,8 +77,15 @@ function updateTable() {
             for (var j = 0; j < cells.length; j++) {
                 var cell = row.insertCell(j);
                 cell.innerHTML = client[cells[j]];
+                if (j == 0) {
+                    cell.classList.add("aloltooltiptext");
+                }
             }
         }
+    }
+    // remove any extra rows
+    while (document.getElementById("adsblol_api_me_beast_table").rows.length > window.adsblol_api_me.clients.beast.length + 1) {
+        document.getElementById("adsblol_api_me_beast_table").deleteRow(window.adsblol_api_me.clients.beast.length + 1);
     }
 
     // update MLAT table too

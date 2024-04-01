@@ -18,6 +18,12 @@ toc: true
 
 ### [Feed ADSB.lol](../../get-started/introduction)
 
+Instructions on how to get started sharing your station's data.
+
 ### [Feeders Only](../../feeders-only/introduction)
 
+Resources that are available to you once you share data.
+
 ### [Open Data](../../open-data/)
+
+historical open data, available to everyone 

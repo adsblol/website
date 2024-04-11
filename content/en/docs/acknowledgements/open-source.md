@@ -51,7 +51,7 @@ Acknowledgements go to the [Virtual Radar Server contributors](https://www.virtu
 
 [We](https://github.com/adsblol/api/graphs/contributors?from=2023-01-29&to=2037-07-01&type=d) contribute some code.
 
-The API is possible thanks to [Redis](https://redis.io/) acting as the database for the fun _Route_, _My Map_ and _Screenshot_ features.
+The API is possible thanks to [Valkey](https://Valkey.io/) acting as the database for the fun _Route_, _My Map_ and _Screenshot_ features.
 
 
 ## doks
@@ -69,5 +69,3 @@ This website was built using [Hugo](https://gohugo.io/) and [doks](https://githu
 - [grafana](https://github.com/grafana/grafana)
 - [mimir](https://github.com/grafana/mimir)
 - [loki](https://github.com/grafana/loki)
-
-

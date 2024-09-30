@@ -43,7 +43,7 @@
     "@babel/preset-env": "^7.23",
     "@fullhuman/postcss-purgecss": "^4.1",
     "@hyas/images": "^0.2.2",
-    "auto-changelog": "^2.4",
+    "auto-changelog": "^2.5",
     "autoprefixer": "^10.4",
     "bootstrap": "^5.2.0-beta1",
     "clipboard": "^2.0",

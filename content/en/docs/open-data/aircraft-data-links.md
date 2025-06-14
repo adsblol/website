@@ -58,15 +58,13 @@ HFDL operates on HF bands and provides global coverage, especially over oceanic 
 - **Protocol**: TCP
 
 
-
-
 ## Usage
 
 Send your aircraft data link messages to the appropriate endpoint based on the type of data you're collecting:
 
-- Use port 5553 (TCP) to send VDL2 data streams
 - Use port 5550 (TCP) to send ACARS messages
-- Use port 5556 (TCP) to send HFDL communications
+- Use port 5551 (TCP) to send HFDL communications
+- Use port 5552 (TCP) to send VDL2 data streams
 
 ### Data Format
 All endpoints **only accept JSON formatted data**. Raw message data must be converted to JSON before submission. Common software that can generate JSON output includes:

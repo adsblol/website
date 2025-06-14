@@ -43,17 +43,17 @@ HFDL operates on HF bands and provides global coverage, especially over oceanic 
 ## Data Collection Endpoints
 
 ### ACARS
-- **Host**: feed.adsb.lol
+- **Host**: feed-acars.adsb.lol
 - **Port**: 5550
 - **Protocol**: TCP
 
 ### HFDL (High Frequency Data Link)
-- **Host**: feed.adsb.lol
+- **Host**: feed-acars.adsb.lol
 - **Port**: 5551
 - **Protocol**: TCP
 
 ### VDL2 (VHF Data Link Mode 2)
-- **Host**: feed.adsb.lol
+- **Host**: feed-acars.adsb.lol
 - **Port**: 5552
 - **Protocol**: TCP
 

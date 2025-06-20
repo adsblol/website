@@ -18,7 +18,7 @@ License: [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1.0/)
 
 Hostname: `out.adsb.lol`
 
-Port: 1337 (BEAST) and 1338 (MLAT, SBS)
+Port: 1365 (BEAST) and 1366 (MLAT, SBS)
 
 These outputs are available to all feeders IPs.
 
@@ -34,10 +34,9 @@ Documentation assumes a high skill level. **Please consider improving the docume
 
 You can use readsb to get the data locally, for example running directly:
 ```
-readsb --net-only --net-connector=out.adsb.lol,1337,beast_in --net-connector=out.adsb.lol,1338,sbs_in_mlat
+readsb --net-only --net-connector=out.adsb.lol,1365,beast_in --net-connector=out.adsb.lol,1366,sbs_in_mlat
 ```
 
 The typical use case for this would be to do some form of data analysis on the full raw data stream from all the feeders. It could also be used for certain visualization goals of live or past flight activity.
 
 Please make sure that you avoid creating feeding loops - that is why the disclaimer above urges you not to use the readsb in your feeder setup to connect to this stream. A good way to set up a separate environment to start using this data stream would be to spin up a Docker container with its own readsb instance. The necessary docker file to get started with that is included in the readsb implementation that is most commonly used at this point (and that is also the underlying implementation used for ADSB.lol): [@wiedehopf's readsb](https://github.com/wiedehopf/readsb)
-

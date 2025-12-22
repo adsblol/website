@@ -26,7 +26,7 @@ toc: true
 If your SDR doesn't have a filter, you might benefit from one.
 
 - Best: [Sysmocom.de: 1090 MHz Cavity Filter](https://shop.sysmocom.de/1090-MHz-cavity-filter-for-Mode-S-ADS-B/cf1090-kt30)
-- Uputronics 1090MHz ADS-B Filtered Preamp [Store](https://store.uputronics.com/index.php?route=product/product&product_id=50) [US](https://v3.airspy.us/product/upu-fp1090s/) (recommended)
+- Uputronics 1090MHz ADS-B Filtered Preamp [Store](https://store.uputronics.com/products/uputronics-filtered-preamps?variant=48292157587790) [US](https://shop.wegmatt.com/collections/uputronics/products/uputronics-filtered-preamps?variant=44059879768087) (recommended)
 - There are very cheap [filterend LNAs](https://www.aliexpress.us/item/3256804467076609.html) available directly from China that are suprisingly decent.
 
 ## LNA
